@@ -1,0 +1,103 @@
+#Background{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    gap:10px;
+    max-width: 550px;
+}
+.Skybox{
+    background-color: teal;
+    height: 100px;
+    width: 175px;
+    z-index: -2;
+}
+#Lower-sky{
+    background-color: teal;
+    height: 200px;
+    width: 547px;
+    grid-column: span 3;
+}
+#Ground{
+    background-color: yellowgreen;
+    height: 10px;
+    width: 547px;
+    grid-column: span 3;
+}
+#Circle01{
+    position: absolute;
+    top: 1em;
+    left: 2.5em;
+    height: 25px;
+    width: 25px;
+    background-color: salmon;
+    border-radius: 50%;
+}
+#Circle02{
+    position: absolute;
+    top: 5.5em;
+    left: 2.5em;
+    height: 25px;
+    width: 25px;
+    background-color: salmon;
+    border-radius: 50%;
+}
+#Circle03{
+    position: absolute;
+    top: 1.5em;
+    left: 14.2em;
+    height: 25px;
+    width: 25px;
+    background-color: salmon;
+    border-radius: 50%;
+}
+#Circle04{
+    position: absolute;
+    top: 5.2em;
+    left: 9.9em;
+    height: 60px;
+    width: 60px;
+    background-color: salmon;
+    border-radius: 50%;
+}
+#Circle05{
+    position: absolute;
+    top: 1.4em;
+    left: 6.5em;
+    height: 60px;
+    width: 60px;
+    background-color: gold;
+    border-radius: 50%;
+}
+#Circle06{
+    position: absolute;
+    top: 8.6em;
+    left: 6.2em;
+    height: 25px;
+    width: 25px;
+    background-color: gold;
+    border-radius: 50%;
+}
+#BigMountain{
+    position: absolute;
+    top: 5.2em;
+    left: 18.3em;
+    width: 0;
+    height: 0;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-bottom: 235px solid darkgreen;
+    z-index: 0;
+}
+#SmallMountain{
+    position: absolute;
+    top: 9.85em;
+    left: 24.71em;
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 160px solid yellowgreen;
+    z-index: 0;
+}
+.form-item{
+    padding: 5px;
+}
